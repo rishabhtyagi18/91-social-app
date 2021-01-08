@@ -1,0 +1,18 @@
+
+.history  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 30px 30px;
+}
+
+.no-data  {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.flex-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 28px 28px 0;
+}

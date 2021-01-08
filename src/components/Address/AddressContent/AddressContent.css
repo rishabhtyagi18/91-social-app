@@ -1,0 +1,37 @@
+
+.payload {
+    width: 300px;
+    margin-top: 40px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.14), 
+                0 0 0.0625rem 0 rgba(0, 0, 0, 0.12), 
+                0 0 0.0625rem 0 rgba(0, 0, 0, 0.2);
+    padding: 20px 20px 10px 20px;
+    height: 400;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+}
+
+.payload .title{
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.payload .payload-details, .payload .details  {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+.payload .payload-details .heading , .payload .details .heading {
+    text-align: center;
+    font-weight: 600;
+}
+
+.payload .details{
+    margin-top: 20px;
+}
+

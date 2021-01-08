@@ -1,0 +1,22 @@
+
+.pagination {
+    display: flex;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.pagination .page-number  {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.active-page {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.inactive {
+    background-color: #ffffff;
+}
